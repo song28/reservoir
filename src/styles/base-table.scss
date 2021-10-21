@@ -1,0 +1,34 @@
+@import "variables";
+
+
+  .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #29958b !important;
+  }
+   .el-table--group,
+  .el-table--border {
+    border: 0px solid #dfe6ec;
+  }
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+    background: #f9fffa;
+  }
+ .el-table th {
+    padding: 8px 0 !important;
+  }
+.el-table td {
+    padding: 2px 0 !important;
+  }
+.el-table--border td {
+    border-right: 0px solid #dfe6ec !important;
+    border-bottom: 1px solid #cfe5e1 !important;
+    color: #333;
+  }
+  .el-table--border th {
+    height: 20px;
+    background: #f7fff8;
+    color: #29958b;
+    border-right: 0px solid #dfe6ec !important;
+  }
+
+
+
+

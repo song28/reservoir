@@ -1,0 +1,22 @@
+/*地图logo水印*/
+.leaflet-control-attribution {
+  display: none;
+}
+
+/*图层边框线*/
+.leaflet-control-layers-separator {
+  display: none;
+}
+
+///*其他图层*/
+.leaflet-control-layers-overlays {
+  display: none;
+}
+
+.leaflet-bottom .leaflet-control {
+  margin-bottom: 30px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 2px;
+}

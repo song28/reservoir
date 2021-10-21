@@ -1,0 +1,49 @@
+.el-form {
+  .el-date-editor.el-date-editor--datetimerange, .el-date-editor.el-range-editor {
+    max-width: 360px !important;
+
+  }
+  .el-date-editor {
+    .el-input__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.chart-box-table {
+  border: 1px solid #E6E6E6;
+  border-bottom: 0;
+  .chart-table-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .chart-table-head {
+    background-color: #1493ff;
+    color: #fff;
+  }
+
+  .chart-table-head, .chart-body-i {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    span {
+      flex: 1;
+      height: 100%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #E6E6E6;
+    }
+    span:last-child {
+      border-right: none;
+    }
+  }
+
+  .chart-body-i {
+    border-bottom: 1px solid #E6E6E6;
+  }
+
+}

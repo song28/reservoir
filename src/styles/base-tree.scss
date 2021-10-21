@@ -1,0 +1,16 @@
+@import "element-variables";
+//树结构
+.el-tree {
+  background: transparent;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #29958b;
+  border-color: #29958b;
+}
+ .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #29958b;
+  border-color: #ffffff;
+}
+.el-tree-node{
+    padding:6px 0px;
+}

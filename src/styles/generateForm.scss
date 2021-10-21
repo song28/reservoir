@@ -1,0 +1,13 @@
+.el-form.form-border {
+  .el-form-item {
+    border: 1px solid #DCDFE6;
+    border-radius: 1px;
+    .el-form-item__label {
+      border-right: 1px solid #DCDFE6;
+      text-align: center;
+    }
+    .el-input__inner {
+      border: 0;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import "element-variables";
+//弹出层
+.el-dialog {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute !important;
+  margin: 0 auto !important;
+  .el-dialog__title, .dialog-title {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .el-dialog__header {
+    padding: 0.15rem 0.4rem;
+    background: #29958b !important;
+    // padding: 0rem 0.4rem !important;
+    position: relative;
+    .el-dialog__headerbtn {
+      top: 0.14rem;
+      right: 0.15rem;
+      .el-dialog__close {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .el-dialog__header:after {
+    content: "";
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    right: 0.4rem;
+    left: 0.4rem;
+    // background-color: rgba(0, 0, 0, .5);
+  }
+
+  .el-dialog__body {
+    padding: 0 0.4rem 0.15rem;
+    // height: calc(100% - 54px);
+    height: calc(100% - 38px);
+    font-size: 14px;
+    max-height: 7.6rem;
+    overflow: auto;
+  }
+
+  .el-dialog__body::-webkit-scrollbar-track-piece {
+    background: #E8E8E8;
+  }
+
+  .el-dialog__body::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  .el-dialog__body::-webkit-scrollbar-thumb {
+    background: #BABABA;
+    border-radius: 20px;
+  }
+
+
+  .el-icon-close:before {
+    color: #ffffff !important;
+  }
+}

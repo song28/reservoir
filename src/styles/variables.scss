@@ -1,0 +1,89 @@
+// base color
+$blue: #1493FF;
+$light-blue: #3A71A8;
+$sky-blue: #20E3E4;
+$red: #FD4B4B;
+$pink: #E65D6E;
+$green: #29958b;
+$orange: #f1bf25;
+$darkOrange: #F36D13;
+$tiffany: #4AB7BD;
+$yellow: #F6DD51;
+$panGreen: #30B08F;
+$gray: #666;
+
+$defaultColor: #29958b;
+
+/*侧边栏*/
+$menuText: #fff;
+$menuActiveText: #fff;
+$menuActiveBg: #FEF72B;
+$subMenuActiveText: #fff;
+$menuBg: #1348A3;
+$menuHover: rgba(158, 193, 238, .3);
+$subMenuBg: #1348A3;
+$subMenuHover: rgba(158, 193, 238, .3);
+$sideBarWidth: 200px;
+$logoHeight: 53px;
+$navHeight: 50px;
+//东川更改为58px
+//$headerHeight: 0.74rem; 
+// $headerHeight: 0.58rem; 
+$headerHeight: 0.52rem; 
+$tipHeight: 44px;
+
+/*右侧菜单*/
+$menuRightBgColor: #B7DBFF;
+$menuRightDefaultBgColor: rgba(0, 124, 250, .3);
+$menuRightActiveBgColor: rgba(0, 124, 250, 1);
+$menuRightTextColor: #fff;
+
+/*上下菜单布局*/
+$pageLayoutsideBarWidth: 80px;
+$pageLayoutMenuBgColor: #fff;
+$pageLayoutMenuText: #828282;
+$pageLayoutMenuActiveText: #14569D;
+$pageLayoutMenuActiveBg: #DBECFC;
+$pageLayoutHeaderBg: #29958B;
+$pageLayoutHeaderText: #fff;
+$pageLayoutHeaderActiveBg: rgba(0,0,0,0.1);
+
+// $pageLayoutHeaderActiveBg: #25867cbe;
+$tipBg: #1493FF;
+
+/*实时预警颜色*/
+$warningColor: #FDEE06;
+
+/*表格*/
+$tableFontColor: #2C2C2C;
+$tableHeadBg: #DFEDFD;
+$tableHoverBg: #DFEDFD;
+
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  pageLayoutMenuText: $pageLayoutMenuText;
+  pageLayoutMenuActiveText: $pageLayoutMenuActiveText;
+  pageLayoutMenuBgColor: $pageLayoutMenuBgColor;
+  pageLayoutMenuActiveBg: $pageLayoutMenuActiveBg;
+  pageLayoutHeaderBg: $pageLayoutHeaderBg;
+}
+/*水科院植物管理系统颜色*/
+$skyPlantActive: #3A71A8;
+$skyPlant: #1348A3;
+
+//leftbar 颜色
+$leftsidebarwrapperBGColor: #004A80FF;
+$pageLayoutMenuBgColor: #f00;
+$pageLayoutMenuBlockBgColor: #25867D;
+$menuitemMarginLeft: #ff0;
+$pageLayoutLeftMenuText: #fff;
+// $pageLayoutLeftMenuActiveBg: #367972c4;
+
+$pageLayoutLeftMenuActiveBg: rgba(0,0,0,0.2);
+$pageLayoutLeftMenuActiveText:#fff;

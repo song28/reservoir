@@ -1,0 +1,19 @@
+@import "variables";
+
+#app {
+  .header-container {
+    height: $headerHeight;
+    display: flex;
+    align-items: center;
+    background-color: $pageLayoutHeaderBg;
+  }
+
+  .tip-container {
+    margin-top: 2px;
+    height: $tipHeight;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $tipBg;
+  }
+}
